@@ -29,4 +29,4 @@ Here are the baseline Out-of-Sample error result:
   Achieved a baseline raw directional accuracy of **~55%**. While seemingly modest but in quantitative finance is a highly significant result. 
   
 **KAN and MLP** 
-  I also tried this two type of engine other than RBF obteining less significant result, by this the chose of using RBF methods.
+  I also tried this two type of engine other than RBF obteining less significant result. Consequently, I chose to use RBF methods.
