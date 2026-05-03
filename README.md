@@ -18,7 +18,7 @@ Package used: yfinance, pandas, numpy, sklearn, matplotlib
 ##  Performance (Nikkei 225 Backtest)
 The tree-engine architecture has been rigorously backtested on historical data from the Nikkei 225 index. 
 
-Here are the baseline Out-of-Sample metrics:
+Here are the baseline Out-of-Sample error result:
 * **Absolute volatility Engine:** 
   Achieved an **RMSE of 2.2** (less than 10% errore rate) in predicting the absolute volatility class. This is a significant result added with **RMSE of 4,2 in tail events**  proving the Gaussian RBF ability to reproduce absolute volatility.
   
@@ -28,5 +28,5 @@ Here are the baseline Out-of-Sample metrics:
 * **Trend Engine:** 
   Achieved a baseline raw directional accuracy of **~55%**. While seemingly modest but in quantitative finance is a highly significant result. 
   
-* **KAN and MLP** 
+**KAN and MLP** 
   I also tried this two type of engine other than RBF obteining less significant result, by this the chose of using RBF methods.
