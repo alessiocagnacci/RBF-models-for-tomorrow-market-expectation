@@ -13,4 +13,4 @@ Unlike traditional models that only guess market direction, this project uses Su
 
 By combining directional alpha with strict volatility-based risk management, this engine filters out market noise and executes trades only when statistical confidence is high.
 
-Package used: yfinance, pandas, numpy, skicit-learn
+Package used: yfinance, pandas, numpy, sklearn, matplotlib
